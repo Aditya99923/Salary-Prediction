@@ -8,6 +8,6 @@ User inputs: Age, Experience, Education, Industry, etc. Categorical dropdowns wi
 
 SalaryApp/ ├── app.py # Streamlit UI ├── model.pkl # Trained XGBoost model ├── features.pkl # Feature list used for prediction ├── salary_train.csv # (Optional) Training dataset ├── requirements.txt # Python dependencies └── README.md # Project documentation 📦 Setup Instructions
 
-Clone the repository git clone https://github.com/your-Aditya99923/salary-prediction-app.git cd salary-prediction-app 1. Create a virtual environment (optional but recommended) 1 python-m venv venv source venv/bin/activate # or venv\Scripts\activate on Windows 1. Install dependencies pip install-r requirements.txt 1. Run the app streamlit run app.py 🧠 Model Training (Optional) If you want to retrain the model, use the provided notebook
+Clone the repository git clone https://github.com/Aditya99923/Salary-Prediction.git cd salary-prediction-app 1. Create a virtual environment (optional but recommended) 1 python-m venv venv source venv/bin/activate # or venv\Scripts\activate on Windows 1. Install dependencies pip install-r requirements.txt 1. Run the app streamlit run app.py 🧠 Model Training (Optional) If you want to retrain the model, use the provided notebook
 
 Cleans data Performs one-hot encoding Tunes model with GridSearchCV Saves the final model and feature list Pred_salary.ipynb : ✅ Requirements streamlit pandas scikit-learn xgboost joblib 📸 Screenshot 🙌 Credits Developed by [Aditya Pratap Singh]
